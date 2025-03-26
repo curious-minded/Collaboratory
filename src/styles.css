@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #333;
+  }
+  
+  /* Container to center the card */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Card styling for the auth form */
+  .card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Heading */
+  .card h2 {
+    text-align: center;
+    color: #ff7e5f;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input styling */
+  .card input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Error message styling */
+  .error {
+    background: #ffe6e6;
+    color: #a00;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* Primary sign in/up button */
+  .primary-button {
+    width: 100%;
+    padding: 12px;
+    background: #ff7e5f;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .primary-button:hover {
+    background: #ff6a4d;
+    transform: translateY(-2px);
+  }
+  
+  /* Social button styling */
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background: #78a8f4;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .social-button:hover {
+    background: #357ae8;
+    transform: translateY(-2px);
+  }
+  
+  /* Adjust social button icon size and margins */
+  .social-button img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-top: 2px;
+    width: 20px;  /* Fix the logo width to 20px */
+    height: auto;
+  }
+  
+  /* Alternate text (toggle sign in/up) styling */
+  .alternate {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .alternate span {
+    color: #ff7e5f;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .alternate span:hover {
+    color: #ff6a4d;
+  }
+  
